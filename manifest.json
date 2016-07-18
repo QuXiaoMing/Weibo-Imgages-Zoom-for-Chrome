@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "Image Zoom",
+    "version": "1.0",
+    "description": "图片放大",
+    "content_scripts": [
+        {
+            "matches": ["http://weibo.com/*"],
+            "js": ["js/jquery-1.8.0.min.js","js/zoom.js"]
+        }
+    ]
+}
